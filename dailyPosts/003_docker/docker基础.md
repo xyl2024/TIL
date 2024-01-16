@@ -64,29 +64,15 @@ ff02::2 ip6-allrouters
 [root@ad5bad5a9a4e /]#
 ```
 
-
-
-
-
-
-
-
-
 # 学会使用docker hub
 
 docker hub跟github一样，允许我们创建仓库（公有/私有）
 
 ![](img/2024-01-16-01-29-29-image.png)
 
-
-
 ![](img/2024-01-16-01-31-16-image.png)
 
-
-
 创建完仓库后，我们可以向仓库推送镜像。
-
-
 
 推送镜像前，需要先登录，否则会被denied
 
@@ -137,31 +123,9 @@ v3: digest: sha256:14e301321c9c56ca7280a28fffda1933ebcf6c270ba5fdd9cb026a8965820
 
 ![](img/2024-01-16-01-36-47-image.png)
 
-
-
 > 另外，我们可以看到，v2和v3的digest值是一样的。因为我们是用v2去制作v3镜像的，所以两个镜像完全相同。只是被打上了不同标签。这也是为什么在push的时候，一直提示 Layer alread exists 的原因，docker hub 不会重复存储相同的文件。
 > 
 > ![](img/2024-01-16-01-40-14-image.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ---
 

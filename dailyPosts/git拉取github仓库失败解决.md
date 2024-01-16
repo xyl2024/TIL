@@ -17,8 +17,6 @@ git config --global https.proxy 127.0.0.1:7890
 
 ![](img/2024-01-13-01-47-37-image.png)
 
-
-
 # 注意
 
 修改代理之后，下次再git clone、push、pull的时候，可能也需要开着vpn，除非把代理关掉。
@@ -29,16 +27,12 @@ git config --global https.proxy 127.0.0.1:7890
 
 [【已解决】OpenSSL SSL_connect: Connection was reset in connection to github.com:443-CSDN博客](https://blog.csdn.net/qq_37555071/article/details/114260533)
 
-
-
 **取消代理命令**：
 
 ```bash
 git config --global --unset http.proxy
 git config --global --unset https.proxy
 ```
-
-
 
 # References
 
