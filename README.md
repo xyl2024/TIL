@@ -1,5 +1,3 @@
-# learn
+# TIL：Today I learn
 
-learnning posts、photos、daily reports.
-
-记录每天学习的内容。
+按类别记录每天学习的内容。
